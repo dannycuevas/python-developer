@@ -5,6 +5,9 @@
 number = int(input("Enter a number of your choice:\n"))
 
 # We will divide the number by 2 and check if the remainder is 0. And this is equivalent to saying; if the number divided by 2 has no decimal places, then this is an even number.
+# In other words, if the number is divisible by 2 and has no remainder (0)
+
+# Use == sign to check if it equals to 0, to Cero of the Remainder
 
 if number % 2 == 0:
   print("This is an even number.")
