@@ -35,6 +35,7 @@ choice1 = input('You\'re at a crossroad, where do you want to go? Type "left" or
 
 if choice1 == "left":
   # Left will continue the game.
+  # Right will right away end the game close it, hence why the "else" statement for this condition is at the very end, the very last "else" statement.
   choice2 = input('You\'ve come to the lake. There is an island in the middle of the lake. Type "wait" to wait for a boat. Type "swim" to swim across. \n').lower()
   if choice2 == "wait":
     # Wait will continue the game.
