@@ -1,0 +1,10 @@
+-We know the current working code file gets executed from top to bottom, but somethings your code will get so long because you are trying to create something complicated, and it is no longer possible to understand what is going on in such a large code file
+
+-What people will do in this case, is to split the code up into individual "modules". Where EACH module is responsible for a different bit of functionality of your program
+
+### Example Case
+-Say a factory was building a car, it would not make sense for ONE single person to build the entire car from the wheels, axles to chasses, that would be crazy
+
+-Instead you have different people working on different modules like the "tire module", or the "chasses module", or the "engine module"
+
+-And then once they put everything together, you end up with the final car, or in our case, the final program

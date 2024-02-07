@@ -1,0 +1,49 @@
+-Python allows us to use something like a "pseudorandom number generator", and the one that python uses is something called the "Mersenne Twister"
+
+https://www.khanacademy.org/computing/computer-science/cryptography/crypt/v/random-vs-pseudorandom-number-generators
+
+https://www.askpython.com/python-modules/python-random-module-generate-random-numbers-sequences
+
+-How can we use this, how can we generate random numbers? It is a little like searching for something in google, and they have this super complex algorithm for your searches. So in this case, the python team have already created a "random module"
+
+
+# RANDOM MODULE
+
+-It contains a whole bunch of functions that you can use, that allows you to generate "random integers" (random whole numbers), or random floating point numbers
+
+-In order for us to tap into the module, we must first have to import it, so we write it, and then we are able to use the random module in our main.py code/file
+
+import random
+
+### Examples - Integer Number
+-We can generate a random intenger by using the randint function providing an a and b
+randint(a, b)
+-And it will return a random intenger between A and B, including both of those numbers
+
+-Example, generate a random whole number between 100 and 200, including those 2 numbers
+So basically any number from a range of numbers from 100 to 200
+
+c = random.randint(100, 200)
+
+-So, the "random module" is a module that the python team created to make it easier for us to generate our random numbers without needing to get into the complexities of all of the math that is required to generate pseudorandom numbers
+
+
+# Random Floating Point Number
+https://www.askpython.com/python-modules/python-random-module-generate-random-numbers-sequences
+
+-As mentioned on the webpage, to generate a random floating point number, all you have to do is use the "random module" that CONTAINS the "random function", and it will return a random floating point number between 0 AND 1 (but it does not actually include the actual whole number "1");
+
+random.random()
+
+### Working Examples
+import random
+
+random_float = random.random()
+print(random_float)
+
+-Now, what if I wanted a random decimal number between 0 and 5?
+(this will not include the actual whole number "5")
+We will need to multiply the random_float x 5
+
+random_float = random.random() * 5
+print(random_float)

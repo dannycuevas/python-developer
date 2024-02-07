@@ -1,0 +1,16 @@
+-But how can we create our own modules and how do modules work anyways?
+Lets say you create a new file on your current working directory called
+my_module.py
+
+-And lets say you want to store the value of pi in this new module (my_module.py), and then we want to be able to use it in my different programs
+
+pi = 3.14159246
+
+-So then, we can use our new module whatever way we want just by importing it in whatever file we are current working on, so just add the call using the module name, example:
+
+import my_module
+
+-Once it has been imported to the current working file (like for example, into the "main.py" file in the current working directory), so once it is imported, you can call it on your main file "main.py" for example:
+
+print(my_module.pi)
+3.14159246
