@@ -1,9 +1,9 @@
-# My Python Repo
+# Python Development
 
-## Learning Python - by Daniel Cuevas
+## My Learning Python Journey - by Daniel Cuevas
 
--Project started January 2024 mainly to keep track of my python learning progress.
+-This project started in January 2024, with the goal of keeping track of my Python learning process, and to document everything as I progress over time.
 
--Planning to re-read the entirety of this repo once a month if possible.
+-My desire was to, at some point in the future, be able to look back and contemplate my beginnings, my ups and downs, and write a book with in my own words that could possibly allow me to re-learn Python as many times as I need throughout my life.
 
--Adding commentary in as much lines of code as possible for documentation and readability.
+-Or maybe even be able to help others learn too. Ultimately, we are on this planet to learn and teach each other.
