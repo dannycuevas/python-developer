@@ -1,6 +1,6 @@
 # Python Development
 
-## My Learning Python Journey - by Daniel Cuevas
+## My Python Journey - by Daniel Cuevas
 
 -This project started in January 2024, with the goal of keeping track of my Python learning process, and to document everything as I progress over time.
 
