@@ -1,5 +1,5 @@
 
-# Data Types
+# Python Data Types
 
 - What is a Data Type? It is a "value" in Python, just values
 - And a "program" is simply "instructions that tell the computer what to do"
@@ -31,7 +31,7 @@
 # Python Classes
 
 - **Beyond the core data types, we can actually create our own data types; they are called "classes"**
-- So they are like "custom types" and you can name them whatever you want 
+	- They are like "custom types" and you can name them whatever you want 
 
 
 # Specialized Data Types
