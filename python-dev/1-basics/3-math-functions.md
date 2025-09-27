@@ -20,4 +20,4 @@
 ```
 
 > DEVELOPER NOTE
-> You will have to google "python math functions" so you can learn more about them, but you will get better this way
+> - You will have to google "python math functions" so you can learn more about them, but you will get better this way
