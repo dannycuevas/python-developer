@@ -1,5 +1,5 @@
 
-# Python Data Types
+# PYTHON DATA TYPES
 
 - What is a Data Type? It is a "value" in Python, just values
 - And a "program" is simply "instructions that tell the computer what to do"

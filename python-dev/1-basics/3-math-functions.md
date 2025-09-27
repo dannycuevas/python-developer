@@ -1,3 +1,4 @@
+# MATH FUNCTIONS IN PYTHON
 
 - Just like there is `print()` function or `type()` function, in Python, there are "math functions" too, such as;
 	- "round"
