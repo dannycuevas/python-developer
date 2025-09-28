@@ -3,14 +3,14 @@
 - Variables store information, that we can use in our programs, like "values" for example, or perhaps "user inputs" too
 
 - Once you have named and assigned a value to a variable, you can use it whenever you want in your program
-```
+```python
 >>> iq = 190
 >>> print(iq)
 190
 ```
 
 - Here is another quick way of naming variables
-```
+```python
 >>> a,b,c = 1,2,3
 >>> print(a)
 1

@@ -43,7 +43,7 @@
 # Get the data type
 
 - Print the data type of the code by using `type()`
-```
+```python
 print(type(2 + 4))
 
 <class 'int'>

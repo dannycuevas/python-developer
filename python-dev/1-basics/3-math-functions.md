@@ -5,7 +5,7 @@
 	- "abs"
 
 - Example of `round()` function 
-```
+```python
 >>> print(round(3.1))
 3
 
@@ -15,7 +15,7 @@
 
 - Example of `abs()` function
 - `abs()` returns the absolute value of the argument (no negative numbers)
-```
+```python
 >>> print(abs(-20))
 20
 ```
