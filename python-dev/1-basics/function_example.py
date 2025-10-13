@@ -22,3 +22,19 @@ total = add(NUM1, num2)
 print(f'The sum of {NUM1} and {num2} is {total}')
 
 # Example output: The sum of 4 and 5 is 9
+
+################################################################################################
+################################################################################################
+################################################################################################
+
+def square(number):
+    """
+    This function returns the square of a given number
+    """
+    return number ** 2
+
+def double(number):
+    """
+    This function returns twice the value of a given number
+    """
+    return number * 2
