@@ -7,6 +7,7 @@
 - **A Dictionary will be like a List, but instead of items, they will be "key value pairs", and it will use "curly brackets" to denote it is a Dictionary, and a Dict will be an "unordered listing of key-value pairs" **
 	- Unordered means that the keys (or items) are not right next to each other in memory (as in a List for example)
 	- This means, for example; In a List, you could access its item by using the item index, in a Dict you will use the key name to access it
+    - Dictionaries are "Ordered" since Python 3.7 (noted at the end of page)
 
 - Each key value pair will be a key, like a Variable or an item, but with an actual Value assigned to it
 

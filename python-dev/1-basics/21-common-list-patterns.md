@@ -26,7 +26,7 @@
 ### List Range
 
 - We can create a "range" of objects, and then turn that into a List
-- Think of it like "automating" the creation of simple Lists, specially a numbered List
+- Think of it like "automating" the creation of simple Lists, specially for a numbered List
 
 ```python
 >>> print(list(range(1, 100)))
