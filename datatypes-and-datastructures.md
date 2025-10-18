@@ -24,7 +24,7 @@
 | `set`   | `{1, 2, 3}`        | No                | **Yes**  | No          | No         | add, remove, union, intersection | Membership tests, remove duplicates  |
 | `range` | `range(5)`         | **Yes**           | No       | Yes         | **Yes**    | iterate, len, indexing           | Efficient integer sequences in loops |
 
->In Python 3.7+, `dict` preserves insertion order by language guarantee.
+>In Python 3.7+ and up, `dict` will be "ordered" by language guarantee.
 
 
 # 3) Numbers—key differences
