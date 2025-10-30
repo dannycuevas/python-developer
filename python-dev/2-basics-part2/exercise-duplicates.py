@@ -19,7 +19,7 @@ for value in some_list:
     if value not in duplicates:
       duplicates.append(value)
 
-print(duplicates)
+print(duplicates)                                                                              
 
 # At the end, this will only print out: ['b', 'n']
 # And will not print out copies of all the times the Values are duplicated 
