@@ -1,5 +1,20 @@
 # 1) Core built-in types (at a glance)
 
+- Python Data Types Table
+
+| **Name**       | **Type** | **Description**                                                      |
+| -------------- | -------- | -------------------------------------------------------------------- |
+| Integers       | int      | Whole numbers, such as:    3     300     200                         |
+| Floating point | float    | Numbers with a decimal point:    2.3     4.6    100.0                |
+| Strings        | str      | Ordered sequence of characters:   "hello"   'Sammy'   "2000"  "楽しい"  |
+| Lists          | list     | Ordered sequence of objects:   [10,"hello",200.3]                    |
+| Dictionaries   | dict     | Unordered Key:Value pairs:  {"mykey" : "value" , "name" : "Frankie"} |
+| Tuples         | tup      | Ordered immutable sequence of objects: (10,"hello",200.3)            |
+| Sets           | set      | Unordered collection of unique objects:  {"a","b"}                   |
+| Booleans       | bool     | Logical value indicating True or False                               |
+
+- Data Types organized by "category"
+
 | Category | Type        | Literal Example    | Main Uses                                            |
 | -------- | ----------- | ------------------ | ---------------------------------------------------- |
 | Numeric  | `int`       | `42`               | Counting, indexes, arithmetic without decimals       |
