@@ -18,8 +18,7 @@
 m
 ```
 
-
-# Start and Stop
+### Start and Stop
 
 - We can "start" getting an index, and then "stop" at a specific index space
 
@@ -31,8 +30,7 @@ m
 012
 ```
 
-
-# Start and no Stop
+### Start and no Stop
 
 - We can also start getting an index but with no stop point
 - So, just get the index starting from a specific point up until the very end
@@ -42,4 +40,15 @@ m
 >>> selfish = '012345678'
 >>> print(selfish[3:])
 345678
+```
+
+### Reverse Index
+- You can go an "index" the very last character of a String by just going in "reverse"
+- The last character will always be `-1`
+```python
+Character :    h     e     l       l     o
+
+     Index :     0     1     2      3    4
+
+Reverse Index:    0    -4    -3   -2    -1
 ```
