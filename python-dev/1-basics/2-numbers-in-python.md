@@ -14,3 +14,7 @@
 >>> print(9.9 + 1.1)
 11.0
 ```
+
+##### Why doesn't 0.1+0.2-0.3 equal 0.0 ?
+- This has to do with floating point accuracy and computer's abilities to represent numbers in memory. For a full breakdown, check out:
+https://docs.python.org/2/tutorial/floatingpoint.html
