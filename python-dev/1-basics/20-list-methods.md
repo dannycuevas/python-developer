@@ -51,7 +51,8 @@ https://www.w3schools.com/python/python_ref_list.asp
 [1, 2, 3, 50, 4, 5, 100]
 ```
 
-- To remove items from a list, by using `pop()` method, we can remove the element at the specified position
+- To remove items from a list, by using `pop()` method (like to "pop off" and object from a List), we can remove the element at the specified position
+- When no index has been pass on, the default will be index -1, meaning the last object of the list
 - Example, we will remove the number 50
 ```python
 >>> print(basket)
