@@ -21,4 +21,17 @@ yellow
 ```
 
 - So Lists cannot be Keys, because Lists can change in place
+- But having Lists as "values" of Keys can work, or even have "nested dictionaries", for example having multiple dictionaries inside a Dictionary
 - Strings or Booleans for example, are immutable, so they can be Keys inside of a Dict 
+
+### Retrieve a Key Value
+
+- To get a value back, instead of getting index locations, we just pass in the key name associated to that value
+```python
+my_dict = {"key1":"value1", "key2":"number2"}
+print(my_dict)
+my_dict["key2"]
+
+>>>{'key1': 'value1', 'key2': 'number2'}
+>>>'number2'
+```

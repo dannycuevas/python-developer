@@ -3,6 +3,7 @@
 - **This is a Data Type in Python, but it is also our next Data Structure**
 - Remember, Data Structure is a way for us to organize data and allowing us to access that data
 	- So Data Structures are like "containers" around data
+	- Dictionaries are mutable; you can change their contents, this flexibility is a key characteristic of dictionaries
 
 - **A Dictionary will be like a List, but instead of items, they will be "key value pairs", and it will use "curly brackets" to denote it is a Dictionary, and a Dict will be an "unordered listing of key-value pairs"**
 	- Unordered means that the keys (or items) are not right next to each other in memory (as in a List for example), meaning, they cannot be "sorted"
