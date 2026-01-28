@@ -1,14 +1,16 @@
 # LISTS
 
-- This is another Data Type
+- This is another Data Type in Python
 - A "list" is a "Ordered Sequence of objects" that can be of any type
 - Also, in Python, Lists are a form of an "Array" (a term mostly used in other programming languages)
 
 - Lists we will denote with square brackets `[]` and "lists are mutable"
-- And inside those brackets, we can have different objects, any collection of items that we want
+- And inside those brackets, we can have different objects, any collection of items that we want, and we will separate each object by using commas, you can even mix and match different "data types" inside of your Lists (like strings, integers, floats, all together)
 
-- Here we see examples of Lists, creating a variable called `li`  and `li2` and `l3` 
-- You can even mix and match different "types" (like strings, integers, floats, all together)
+### Examples of Lists
+
+- Here we see examples of Lists, creating a variable called `li` and `li2` and `l3` 
+
 ```python
 li = [1,2,3,4,5]
 
