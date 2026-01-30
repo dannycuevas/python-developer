@@ -3,7 +3,9 @@
 - This would be our 3rd Data Structure, which is also a Data Type as well
 - **A "Tuple" is like a List, but unlike a List, we cannot modify the Tuple because these are immutable, so you can think of them as immutable Lists**
 	- And we will use regular parenthesis `()` to denote a Tuple (as Lists use `[]` square brackets)
-	- You can include strings, integers, and floats in tuples and access them using both positive and negative indices.
+	- Once an element is inside of a Tuple, it cannot be reassigned to something else
+	- You can include strings, integers, and floats in tuples and access them using both positive and negative indices
+	- We can also include Lists inside of a Tuple
 
 - Here we show an example of a regular Tuple, in which we attempt to modify index 1 for a new value, but we get an error because Tuples are immutable
 ```python
@@ -17,7 +19,7 @@ Traceback (most recent call last):
 TypeError: 'tuple' object does not support item assignment
 ```
 
-- We can still extract, or print out, the values of a Tuple
+- Indexing works the same - we can still extract, or print out, the values of a Tuple
 ```python
 # -> is number 5 in exam_tup Tuple ?
 
