@@ -1,7 +1,7 @@
 # SETS
 
 - Our last Data Type and our last Data Structure, at least from the main ones, the "Set"
-- **Sets are unordered collections of unique objects, and they use curly brackets like a Dict, but they do not have key-value pairs, Sets just have unique values**
+- **Sets are unordered collections of unique objects (we cannot have duplicated objects), and they use curly brackets like a Dict, but they do not have key-value pairs, Sets just have unique values**
 
 - Simple example of a Set, where we print out the contents of the Set
 ```python
@@ -34,4 +34,19 @@ TypeError: 'set' object is not subscriptable
 # -> is number 4 in nums Set ?
 >>> print(4 in seto)
 True
+```
+
+### Basic exercise
+
+- Write an expression that would turn the String `Mississippi` into a Set, thus having only unique letters
+- Solution:
+```python
+set("Mississippi")
+```
+
+- Remove duplicates with the `set()` function, resulting in a Set that only contains unique values
+- This demonstrates how Sets in Python automatically filter out duplicate entries
+```python
+set([1,1,2,3])
+>>>{1, 2, 3}
 ```
