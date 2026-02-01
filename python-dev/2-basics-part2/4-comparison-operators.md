@@ -13,25 +13,24 @@ if is_friend or is_hostile:
 
 - Examples of logical operators in Python
 ```python
->
-<
+> # this is "greater than"
+< # this is "less than"
 == # this is called "equal to"
 = # 1 equal is used to "assign a variable"
 != # this is "not equal to"
+>= # greater or equal to
+<= # less or equal
 ```
 
 - Quick example
 ```python
 print(5 > 10) # is 5 greater than 10?
-
 >>>False
 
 print(5 == 5) # is 5 equal to 5?
-
 >>>True
 
 print(1 >= 0) # is 1 greater than or equal to 0?
-
 >>>True
 ```
 
