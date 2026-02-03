@@ -11,7 +11,7 @@ if is_friend or is_hostile:
 >>>best friends forever
 ```
 
-- Examples of logical operators in Python
+- Examples of comparison operators in Python
 ```python
 > # this is "greater than"
 < # this is "less than"
