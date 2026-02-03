@@ -1,6 +1,6 @@
-# LOGICAL OPERATORS
+# COMPARISON OPERATORS
 
-- A Logical Operator allows us to perform logic between 2 things
+- A Comparison Operator allows us to perform logic between 2 things; True OR False
 ```python
 is_friend = True
 is_hostile = False
