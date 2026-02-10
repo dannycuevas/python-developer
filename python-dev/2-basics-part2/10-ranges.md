@@ -4,14 +4,20 @@
 - **A `range()` is a special type of object in Python, that returns an object, that produces a sequence of Integers from start to stop**
 
 - Example of a simple Range that goes from 0 to 100
+- Up to but not including number 100
 ```python
 print(range(100))
 
 range(0, 100)
 ```
 
+- **A Range will be compose of 3 key elements,** meaning, it can take up to 3 arguments:
+	- start
+	- stop
+	- step (optional)
+
 - Ranges are super useful with Looping, you can iterate over the entire range from start to end
-- Example, printing out all of the numbers in a range from 0 to 10
+- Example, printing out all of the numbers in a range from 0 to 10 (Notice - up to but not including number 10)
 
 ```python
 for number in range(0, 10):
@@ -27,6 +33,21 @@ for number in range(0, 10):
 7
 8
 9
+```
+
+- Example getting even numbers by taking jumps in steps of 2
+- From zero all the way up to but not including number 14
+```python
+for num in range(0,14,2):
+  print(num)
+
+>>>0
+>>>2
+>>>4
+>>>6
+>>>8
+>>>10
+>>>12
 ```
 
 - To do something in reverse, we have to add the `-1` at the end of our range
