@@ -1,8 +1,23 @@
 # ENUMERATE function
 
-- The `enumerate.()` function will return an enumerate object, and we have to pass to it a iterable, meaning, something that enumerate can iterate over
+- The `enumerate.()` function will return an enumerate object, and we have to pass to it a "iterable", meaning, something that "enumerate" can iterate over
+- What it is going to give us is, it is going to take an iterable object, and give you back its "index counter" and the object itself of that index
 
-- What it is going to give us is, it is going to take an iterable object, and gives you in "index counter" and the item of that index
+- Example using a simple String to get the index numbers:
+```python
+word = "superman"
+for item in enumerate(word):
+  print(item)
+
+>>>(0, 's')
+>>>(1, 'u')
+>>>(2, 'p')
+>>>(3, 'e')
+>>>(4, 'r')
+>>>(5, 'm')
+>>>(6, 'a')
+>>>(7, 'n')
+```
 
 - In this example we print `i` and `character` 
 ```python
