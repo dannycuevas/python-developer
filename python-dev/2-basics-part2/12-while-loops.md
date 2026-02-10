@@ -2,8 +2,16 @@
 
 - A While Loop is different from a For Loop, in that we way "while a condition is happening; then do something"
 ```python
-while condition:
+while some_boolean_condition:
 	do action
+```
+
+- You can combine with an "else" statement if you want
+```python
+while some_boolean_condition:
+	do action
+else:
+	do another action
 ```
 
 - Short example, while 0 is less than 50 then do this action
