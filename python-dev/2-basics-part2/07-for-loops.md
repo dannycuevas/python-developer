@@ -5,11 +5,39 @@
 
 - **Loops are "constructs" that enable programs (or block of codes) to execute instructions more than once, so you do not have to copy paste that code N number of times, and also can be used to iterate over sequences of items in Python**
 	- "Repeat a section of code" is also called "iteration"... Or just informally, just a "loop"
+	- Many objects in Python are "iterable" - meaning, we can iterate over every element in the "object" (such as every element in a List, or every character in a String)
+	- We can use FOR loops to execute a block of code for every iteration (example, to print out every single letter in a String)
 
 ### Example of a simple Loop
 
-- With this example, we first display what a "range" is and its content, to show on what we are going to "iterate against"
-- Then we display an actual Loop, that iterates over each item in a list (or "range" in this case) of 10 items
+- Example syntax of a FOR loop
+- The `item_name` is a variable name that you can name however you like
+```python
+my_itareable = [1,2,3]  # this is a "statement (or assignment)"
+for item_name in my_iterable:
+	print(item_name)
+
+>>>1
+>>>2
+>>>3
+```
+
+- Now another example, demonstrating how you can name your variable however you like
+- Also demonstrating how the action of every iteration can be whatever you choose to execute for every element on which you iterate
+```python
+mylist = [1,2,3,4,5] #this is a "statement" (or assigment)
+for jelly in mylist:
+  print("hello Sabuza")
+
+>>> hello Sabuza
+>>> hello Sabuza
+>>> hello Sabuza
+>>> hello Sabuza
+>>> hello Sabuza
+```
+
+- With the next example below, we first display what a "range" is and its content, to show on what we are going to "iterate against" (a Range of 10 numbers)
+- Then we display an actual Loop, that iterates over each item in a list (or "range" in this case) of 10 numeric items
 
 - The `item` is a Variable that gets to be created for the Loop, and we can name it whatever we want
 - **And the Variable is created in the Loop, for EACH item stored after the keyword `in`, in this case a `range(10)`** 
@@ -74,6 +102,44 @@ for number in {1,2,3,4}:
 2
 3
 4
+```
+
+- Now we are trying to print out only even-numbers
+- So, this instructions will be;
+	- For every number in that List, if that number divided by 2 and remainder is equal to 0 (zero)
+	- Then you can go ahead and print that number
+- And then check for "odd numbers" as well
+```python
+mylist = [1,2,3,4,5] #this is a "statement" (or assigment)
+for number in mylist:
+  if number % 2 == 0: # Check for "even numbers" only
+    print(number)
+  else:
+    print(f"Odd numner: {number}")  # Check for "odd numbers" only
+
+>>>Odd numner: 1
+>>>2
+>>>Odd numner: 3
+>>>4
+>>>Odd numner: 5
+```
+
+- This next example starts at 0 (zero)
+- then it goes "zero + 1 = 1" and gets printed out
+- then goes "1 + 2 = 3" and gets printed out
+- then "3 + 3 = 6"
+- then "6 + 4 = 10"
+- then 10 + 5 = 15
+```python
+for number in mylist:
+	list_sum = list_sum + number
+	print(list_sum)
+
+>>>1
+>>>3
+>>>6
+>>>10
+>>>15
 ```
 
 - The following is a "nested Loop"
