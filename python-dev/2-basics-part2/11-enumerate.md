@@ -1,6 +1,6 @@
 # ENUMERATE function
 
-- The `enumerate.()` function will return an enumerate object, and we have to pass to it a "iterable", meaning, something that "enumerate" can iterate over
+- The `enumerate.()` function (a Python built-in function) will return an enumerate object, and we have to pass to it a "iterable", meaning, something that "enumerate" can iterate over
 - What it is going to give us is, it is going to take an iterable object, and give you back its "index counter" and the object itself of that index
 
 - Example using a simple String to get the index numbers:
