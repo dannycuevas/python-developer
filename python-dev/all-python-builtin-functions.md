@@ -1,5 +1,5 @@
 Here’s a compact, beginner-friendly cheat sheet of **common Python built-in functions**.  
-(Examples show a tiny expression ➜ its result.)
+(Examples show a tiny "expression", and ➜ its result.)
 
 | > Function    | > What it does                            | > Tiny example ➜ Output                             |
 | ------------- | ----------------------------------------- | --------------------------------------------------- |
