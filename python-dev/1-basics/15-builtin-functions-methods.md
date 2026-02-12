@@ -1,11 +1,10 @@
 # BUILT-IN FUNCTIONS and METHODS
+Python Official Documentation:
+- [Python String Methods](https://www.w3schools.com/python/python_ref_string.asp)
+- [Python Built In Functions](https://docs.python.org/3/library/functions.html)
 
-[Python String Methods](https://www.w3schools.com/python/python_ref_string.asp)
 
-[Python Built In Functions](https://docs.python.org/3/library/functions.html)
-
-
-# Functions
+# Python Built-in Functions
 
 - So far we have seen only a couple of Python built-in functions thus far, here are the examples of Python built-in functions
 ```python
@@ -23,14 +22,22 @@ round()
 ```
 
 
-# Methods
+# Python Built-in Methods
 
-- Methods are similar to functions, but they are "owned by something"
-- For example we have Python String Methods, which are specifically to use with strings 
+- Methods are similar to functions, but they are "owned by something", they are built into Objects
+	- Meaning, Python built-in Objects, like a List for example
+- Now, for example, we have Python String Methods, which are specifically to use with Strings 
 
-- Short simple example of a string method - which will always begin with a simple dot (`.`)
+- Short simple example of a String method - which will always begin with a simple dot (`.`)
 ```python
 VARIABLE.format()
+```
+
+- If you want help to check a specific method, you then call the `help()` built-in function, and pass-in the method
+	- This will return the actual documentation on that Python Object
+- In a Jupyter notebook, you can use `ctrl + spacebar` keybinding
+```python
+help(mylist.insert)
 ```
 
 ### Method Examples
@@ -50,7 +57,7 @@ to be married or to go on dates
 ```
 
 - We can also "find" specific strings of text, and display "at what index it will be", in a string Variable by using the `.find()` method
-- Kinda like using Linux `grep` but inside a specific string Variable, searches the string for a specified value and returns the position of where it was found
+- Kinda like using Linux `grep` but inside a specific string Variable, and just printing the index position
 ```python
 >>> quote = 'TO BE MARRIED OR TO GO ON DATES'
 >>> print(quote.find('MARRIED'))
