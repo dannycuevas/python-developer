@@ -31,3 +31,26 @@ say_hello()
 
 - This is the power of Python, creating our own Functions, and calling them as many times as we want in our codebase 
 - Just remember that the interpreter runs line by line, from top to bottom, so the Functions need to be define above, and from there on below, be called as much as you want
+
+# Print VS Return
+
+- When using Functions, we will not really see a lot of `print()` statements inside of a Function
+- Typically, we will use the `return` keyword to send back the result of the Function, instead of "printing it out"
+- Keyword `return` will allow us to save, or assign, the output of the Function to a new Variable, and it will not require and of the parenthesis symbols "`()`"
+	- unlike `print()` that does not "save" the outputs
+
+### Example Function with `return`
+
+- Example using a "add Function", that takes in 2 arguments or parameters `num1` and `num2` 
+	- then it is going to "return" the sum of those 2 Variables - like allowing us to store the results
+	- we then assign that "return result" to a Variable
+	- finally, we then "print" that final Variable
+```python
+def sum_numbers(num1,num2):
+  return num1+num2
+
+result = sum_numbers(2,3)
+print(result)
+
+>>>5
+```
