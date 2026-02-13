@@ -10,6 +10,7 @@
 - After the `def` keyword, we give it a name, and Functions will use the same naming conventions we use with Variables 
 - And after the name, we use the "brackets", to let the interpreter know this is something we are going to perform an action on, or that this is something that is going to perform an action on a Data Type
 - Lastly, add the action within your block of code
+
 ```python
 def name_of_function():
 	’Docstring explains function.’
@@ -25,7 +26,7 @@ def say_hello():
 ```python
 say_hello()
 
-helloooooo
+>>>helloooooo
 ```
 
 - This is the power of Python, creating our own Functions, and calling them as many times as we want in our codebase 
