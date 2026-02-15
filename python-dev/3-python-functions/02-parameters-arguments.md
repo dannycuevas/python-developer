@@ -1,13 +1,13 @@
 # PARAMETERS VS ARGUMENTS
 
-- Generic Function
+- Generic Function example
 ```python
 def say_hello():
 	print('helloooooo')
 ```
 
 - The other super power of Functions is allowing us to make them "dynamic", by using the Function brackets
-- We will be able to pass in "Arguments" or "Parameters" into the Functions - they are just words saying "take this Variable and pass it into the Function, in order to work with it, into the Function"
+- We will be able to pass in "Arguments" or "Parameters" into the Functions - these are just words saying "take this Variable and pass it into the Function, in order to work with it, into the Function"
 
 ##### Parameters
 - We give the "parameters" inside of the brackets of the Function name, in this case `say_hello()` for example
@@ -34,8 +34,8 @@ say_hello('Daniel', ':D')
 ```
 
 > NOTE:
-> - Parameters are used in the block of code defining the Function
-> - Arguments are the actual Values passed on when calling the Function
+> - Parameters are used (or "defined") in the block of code when defining the Function
+> - Arguments are the actual Values being passed on when calling (or "executing") the Function
 
 ### Example of working Function
 
