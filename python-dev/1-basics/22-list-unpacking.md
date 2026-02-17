@@ -1,6 +1,6 @@
 # LIST UNPACKING
 
-- In a single List, you could instead create Variables out of each item in a list
+- In a single List, you could instead create Variables out of each item in a list, and just "get" (or print) those individual Values by themselves, hence the term "unpacking"
 ```python
 a,b,c = [1,2,3]
 print(a)
