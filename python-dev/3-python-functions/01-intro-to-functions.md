@@ -38,10 +38,11 @@ say_hello()
 - Typically, we will use the `return` keyword to send back the result of the Function, instead of "printing it out"
 - Keyword `return` will allow us to save, or assign, the output of the Function to a new Variable, and it will not require and of the parenthesis symbols "`()`"
 	- unlike `print()` that does not "save" the outputs
+	- this will allow us to call (anywhere else in your code) that Variable that is storing the output
 
 ### Example Function with `return`
 
-- Example using a "add Function", that takes in 2 arguments or parameters `num1` and `num2` 
+- Example using an "add Function", that takes in 2 arguments or parameters `num1` and `num2` 
 	- then it is going to "return" the sum of those 2 Variables - like allowing us to store the results
 	- we then assign that "return result" to a Variable
 	- finally, we then "print" that final Variable
