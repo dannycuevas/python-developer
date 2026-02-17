@@ -108,6 +108,6 @@ Dictionary = Key-value pairings, that is Unordered
 | Dict get with default | `cfg.get("timeout", 30)`          |
 | Dict comprehension    | `{k: len(k) for k in ["a","bb"]}` |
 | Tuple unpacking       | `x, y = (10, 20)`                 |
-| Set union             | `{1,2}                            |
+| Set union             | `{1,2}`                            |
 | Range loop            | `for i in range(5): ...`          |
 | String format         | `f"Hello {name}"`                 |
