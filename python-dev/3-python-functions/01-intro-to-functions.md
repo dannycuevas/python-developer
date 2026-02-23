@@ -55,3 +55,24 @@ print(result)
 
 >>>5
 ```
+
+### Another analogy (real life)
+
+#### `print` is like:
+🗣️ Saying something out loud
+> “The total is 100.”
+- But no one wrote it down.
+
+#### `return` is like:
+✍️ Writing something on paper and handing it over
+> “Here is the total: 100.”
+- Now it can be reused, stored, or passed along.
+
+### Golden beginner rule ⭐
+
+> **Use `print()` to see things.  
+> Use `return` to build things.**
+
+At this learning stage:
+- It’s OK to use `print` a lot    
+- But real programs depend on `return`
