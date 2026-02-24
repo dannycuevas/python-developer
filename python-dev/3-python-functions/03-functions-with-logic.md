@@ -47,7 +47,7 @@ myfunc("superman")
 >>>'sUpErMaN'
 ```
 
-- Example "Permission checker" Function
+#### Example "Permission checker" Function
 **Problem**  
 Create a function called `has_access` that:
 - Takes one parameter: `role`    
