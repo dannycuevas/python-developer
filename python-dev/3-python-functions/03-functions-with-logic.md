@@ -47,19 +47,18 @@ myfunc("superman")
 >>>'sUpErMaN'
 ```
 
-#### Example "Permission checker" Function
+### Example "Permission checker" Function
 **Problem**  
 Create a function called `has_access` that:
 - Takes one parameter: `role`    
 - If role is `"admin"` → return `"Access granted"`    
 - Otherwise → return `"Access denied"`
-Then:
-- Call the function    
+- Then: Call the function    
 - Store the result in a variable    
-- Print the result
-**Hints 💡**
+- Be able to "print" the result
 - Use `return`, not `print`, inside the function    
 - Print the result **after** calling the function
+
 ```python
 def has_access(role):
     if role == "admin":
@@ -73,11 +72,10 @@ result = has_access("admin")
 print(result)
 ```
 
-#### 🧠 Super important rule (write this in your brain 🧠✍️)
+#### 🧠 Super important rule (write this in your brain 🧠✍️):
 
 ❌ Never assign the result of `print()` to a variable  
 ✅ Assign the result of `return` to a variable
 
-#### 🔑 One-sentence takeaway
-`print` talks to humans
-`return` talks to your program
+#### 🔑 One-sentence takeaway:
+`print` talks to humans / and / `return` talks to your program
