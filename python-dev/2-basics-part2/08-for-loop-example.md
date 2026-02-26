@@ -50,3 +50,7 @@ for s in scores:
 80.0
 90.0
 ```
+
+### 🔑 Key takeaway
+- `for` loops + conditionals let you apply **different logic to different items** in a collection
+- This is the foundation of automation scripts
