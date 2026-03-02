@@ -1,5 +1,5 @@
 
-### While Loops / Comparing Loops
+### Comparing WHILE Loops
 
 - While Loops tend to be more flexible than For Loops
 	- This is mainly because they can Loop many more times than a For Loop
@@ -32,3 +32,37 @@ while True:
 	if (response == 'bye'):
 		break
 ```
+
+### 🟢 Health check retries example
+
+**Problem**  
+You are simulating health check retries.
+- Start with `check = 1`    
+- While `check` is **less than or equal to 3**:    
+    - Print `"Health check attempt X"`        
+    - Increase `check` by 1        
+- After the loop, print `"Health check completed"`
+
+```python
+# 🟢 Exercise 4 — Health check retries (while loop)
+check = 1
+while check <= 3:
+	print(f"Health check attempt {check}")
+	check = check + 1
+print("Health check completed")
+```
+
+- Output:
+```python
+Health check attempt 1
+Health check attempt 2
+Health check attempt 3
+Health check completed
+```
+
+### 🔑 Key takeaway
+
+A correct `while` loop always has:
+- a clear condition     
+- a counter
+- a counter update
