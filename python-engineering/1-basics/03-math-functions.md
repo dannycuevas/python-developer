@@ -14,7 +14,7 @@
 ```
 
 - Example of `abs()` function
-- `abs()` returns the absolute value of the argument (no negative numbers)
+- `abs()` returns the absolute value of the argument (it means "no negative" numbers)
 ```python
 >>> print(abs(-20))
 20
@@ -22,3 +22,9 @@
 
 > DEVELOPER NOTE
 > - You will have to google "python math functions" so you can learn more about them, but you will get better this way
+
+
+# math - Mathematical functions
+
+Here are some mathematical functions:
+https://docs.python.org/3.14/library/math.html
