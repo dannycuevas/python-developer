@@ -1,9 +1,11 @@
 # ITERABLES
 
-- An "iterable" simply means it is an object, or a collection (like an Array for example), that can be iterated over 
+- **An "iterable" simply means it is an object, or a collection (like an Array for example), that can be iterated over** (meaning, going one item by one item, to check every single item in a collection)
+- Meaning, these can be a List, a Dictionary, a Tuple, a Set, so anything that is a collection of items
+- Even a String can be an "iterable", as you can iterate and print each character in a String
 
 - What about iterating over an object, like a Dictionary?
-	- It will print out the Keys of a Dictionary, example below
+	- It will print out the all the Keys in a Dictionary, example below
 
 ```python
 user = {
@@ -11,8 +13,8 @@ user = {
   "age": 5006,
   "can_swim": False }
 
-for key in user:
-  print(key)
+for item in user:
+  print(item)
 
 name
 age

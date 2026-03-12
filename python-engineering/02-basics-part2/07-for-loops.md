@@ -1,7 +1,8 @@
-# FOR LOOPS
+# FOR Loops
 
 - We have work with "Conditional Logic" and "Logical Operators" to develop our code to make decisions
 - Now "Loops" allow us to run lines of code over and over and over, like thousands of times or millions of times
+- "Nested Loop" example at the end
 
 - **Loops are "constructs" that enable programs (or block of codes) to execute instructions more than once, so you do not have to copy paste that code N number of times, and also can be used to iterate over sequences of items in Python**
 	- "Repeat a section of code" is also called "iteration"... Or just informally, just a "loop"
@@ -142,10 +143,18 @@ for number in mylist:
 >>>15
 ```
 
-- The following is a "nested Loop"
-- This will first complete the nested Loop, and then go back to the initial Loop to print them together, as specified in the printing statement
-- So it will go with A first, then B, then C
-	- From there back out to the initial Loop to the 1, then 2, so on
+### "Nested" Loop example
+
+- This will first complete the nested Loop (the 3 items inside the nested loop), and then go back to the initial Loop to print them together, as specified in the printing statement
+
+- So it will go with the first item `1` in the first loop;
+	- then go down to the next and last loop, and get the first item `a`
+	- then go down to the last statement to print `1a` as the `print` statement says
+	- so then, staying at the `1` of the first loop, it will move on to the second item in the second loop, the `b`, then print it as `1b`
+	- then the third item `c` and print it as `1c`, thus completing the last loop
+	- this will take you back to the first loop, and get the second item `2`
+	- repeat the cycle for item `2`, and so on
+
 ```python
 for item in (1,2,3,4,5):
 	for x in ['a', 'b', 'c']:
