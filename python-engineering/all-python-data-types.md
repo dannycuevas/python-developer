@@ -1,3 +1,17 @@
+# 🧠 Python Symbols Cheat Sheet
+
+|Symbol|Name|How to say it|Common Use|
+|---|---|---|---|
+|`[]`|**Square brackets**|“square brackets”|Lists, indexing|
+|`{}`|**Curly braces**|“curly braces”|Dictionaries, sets|
+|`()`|**Parentheses**|“parentheses”|Functions, grouping|
+|`<>`|**Angle brackets**|“angle brackets”|Comparisons (old), generics (other languages)|
+|`''`|**Single quotes**|“single quotes”|Strings|
+|` `` `|**Backticks**|“backticks”|Rare in Python (used in markdown, shell)|
+|`;`|**Semicolon**|“semicolon”|Optional statement separator|
+|`:`|**Colon**|“colon”|Blocks (if, for, def, class)|
+
+
 # 1) Core built-in types (at a glance)
 
 | Category | Type        | Literal Example    | Main Uses                                            |
