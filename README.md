@@ -1,4 +1,4 @@
-# Python Development
+# Python Engineering
 
 ## My Python Journey - by Daniel Cuevas
 
@@ -6,7 +6,7 @@
 - This is the introduction to "programming" and all the basics
 - Start here if you are just learning what programming is and what it does for us hoomans
 
-### section: python engineering
+#### section: python engineering
 - Learn Python from complete scratch to a "developer" level
 - I am constantly updating and upgrading the entire repo (or as often as possible!)
 - Go to "programming fundamentals" if you have never coded before
